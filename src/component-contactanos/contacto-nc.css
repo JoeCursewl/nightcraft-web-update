@@ -1,0 +1,164 @@
+.sec-contact-nc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    flex-direction: column;
+    min-height: 100vh;
+    border-radius: 12px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    background-image: url("/forms-nc-arreglado.png");
+}
+
+.sec-nc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 60%;
+    border-radius: 8px;
+    border: 1px solid rgb(209, 130, 243, 0.5);
+    margin: 2rem;
+    color: rgba(215, 181, 230, 0.952);
+    background-image: linear-gradient(to right, rgba(12, 4, 14, 0.288), rgba(27, 10, 59, 0.288), rgba(12, 25, 59, 0.329), rgba(31, 24, 68, 0.26));
+    gap: 0px 15px;
+    position: relative;
+    z-index: 100;
+}
+
+.input-v {
+    background-color: transparent;
+    border-bottom: 1px solid rgb(82, 67, 97);;
+    color: rgba(215, 181, 230, 0.952);
+    transition: .1s all ease-out;
+    outline: none;
+}
+
+.input-v::placeholder {
+    color: rgba(215, 181, 230, 0.527);
+    font-size: 15px;
+    top: 100;
+    position: relative;
+    transition: .1s all ease-in;
+}
+
+.n-textarea {
+    width: 100%;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 1px solid rgb(82, 67, 97);
+    padding: 1rem;
+    min-height: 150px;
+    outline: none;
+}
+
+.form-textarea-nc p {
+    color: rgba(215, 181, 230, 0.952);
+}
+
+.msg-nc-sng img {
+    width: 25px;
+}
+
+.msg-nc-sng {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+}
+
+.form-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 50px 0px;
+}
+
+.form-input-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 0px 25px;
+}
+
+.form-sng {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px 0px;
+}
+
+.form-textarea-nc {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px 0px;
+}
+
+.nc-block img {
+    width: 20px;
+}
+
+.nc-block {
+    padding: 0.8rem 1rem;
+    border: 1px solid;
+    border-color: rgb(85, 36, 81) rgb(88, 21, 85) rgb(44, 11, 63) rgb(19, 58, 85);
+    border-radius: 12px;
+    background-image: linear-gradient(to right,  rgba(12, 4, 12, 0.5), rgba(7, 13, 22, 0.521), rgba(15, 4, 14, 0.699));
+
+}
+
+/* BUTTONS */
+
+.btn-form {
+    width: 50%;
+    color: rgba(207, 96, 255, 0.849);
+    background-color: rgba(0, 0, 0, 0.801);
+    outline: none;
+    background-image: linear-gradient(to right, rgba(33, 9, 36, 0.76), rgba(27, 10, 59, 0.801), rgba(12, 25, 59, 0.822), rgba(31, 24, 68, 0.815));
+}
+
+/* BUTTONS */
+
+@media (max-width: 1024px) {
+    .sec-nc {
+        width: 80%;
+    }
+    .form-input-all {
+        width: 80%;
+    }
+    .form-textarea-nc {
+        width: 80%;
+    }
+}
+
+@media (max-width: 590px) {
+    .sec-nc {
+        width: 95%;
+        flex-direction: column-reverse;
+        gap: 25px 0px;
+        text-align: center;
+    }
+    .form-input-all {
+        width: 95%;
+        flex-direction: column;
+        gap: 25px 0px;
+    }
+    .form-textarea-nc {
+        width: 95%;
+    }
+}

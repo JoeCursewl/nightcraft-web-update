@@ -1,0 +1,26 @@
+.ft-modal-nc {
+    background-image: linear-gradient(to right, rgb(11, 4, 19), rgb(15, 4, 15), rgb(8, 4, 10), rgb(19, 3, 13));
+}
+
+.ft-modal-nc-2 {
+    background-image: linear-gradient(to right, rgba(60, 12, 66, 0.288), rgba(27, 10, 59, 0.644), rgba(12, 25, 59, 0.329), rgba(31, 24, 68, 0.26));
+}
+
+.img-nc-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-nc-modal img {
+    width: 25px;
+}
+
+.btn-modal {
+    color: blueviolet;
+    background-color: rgba(11, 7, 14, 0.205);
+}
+
+.nc {
+    color: rgb(209, 130, 243);
+}

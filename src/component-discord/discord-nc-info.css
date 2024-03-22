@@ -1,0 +1,109 @@
+.discord-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.discord-info-all-cn h3 {
+    font-size: 1.5rem;
+    color: rgb(209, 130, 243);
+}
+
+.dc-vg-all {
+    width: 90%;
+    padding: 1.5rem;
+    background-image: linear-gradient(to right, rgba(35, 11, 37, 0.5), rgba(32, 15, 61, 0.5), rgba(49, 21, 49, 0.5), rgba(24, 7, 48, 0.5));
+    border-radius: 12px;
+    margin-top: 30px;
+    display: flex;
+    gap: 0px 20px;
+    min-height: 30vh;
+}
+
+.dc-lg-nc img {
+    width: 100px;
+}
+
+.dc-lg-nc {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dc-info-nc {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns-nc-comp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 20px;
+    padding-top: 20px;
+}
+
+.btns-nc-comp button {
+    background-image: linear-gradient(to right, rgba(51, 14, 54, 0.5), rgba(24, 7, 48, 0.5));
+    color: rgb(209, 130, 243);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: .1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 10px;
+}
+
+.btns-nc-comp button img {
+    width: 20px;
+}
+
+.btns-nc-comp button:hover {
+    background-image: linear-gradient(to right, rgba(81, 22, 85, 0.5), rgba(39, 12, 77, 0.5));
+    color: rgb(245, 222, 255);
+    transition: .1s ease-in;
+}
+
+.discord-btn-comp {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 0px 20px;
+}
+
+@media (max-width: 670px) {
+    .discord-btn-comp {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .btns-nc-comp {
+        width: 100%;
+    }
+
+    .dc-vg-all {
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px 0px;
+    }
+    .dc-info-nc {
+        width: 100%;
+    }
+    .dc-lg-nc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .ip-nc {
+        font-size: 1.2rem;
+    }
+}

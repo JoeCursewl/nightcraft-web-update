@@ -1,0 +1,54 @@
+.footer-nc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(40, 10, 44, 0.479), rgba(63, 19, 105, 0.459), rgba(17, 81, 92, 0.247), rgba(32, 17, 61, 0.527));
+}
+
+.footer-nc-all-cn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px 10px;
+}
+
+.ft-img-nc img {
+    width: 50px;
+}
+
+.f-link {
+    color: rgba(209, 130, 243, 0.493);
+    transition: .1s ease-in-out;
+}
+
+.f-link:hover {
+    color: rgba(34, 164, 187, 0.863);
+    transition: .1s ease-in-out;
+}
+
+.logito-nc-ft {
+    transition: .1s all ease-in-out;
+    animation: logo-animation-nc;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo-animation-nc {
+    0% {
+        filter: drop-shadow(0 0 5px rgb(141, 33, 151));
+    }
+    35% {
+        filter: drop-shadow(0 0 8px rgb(141, 33, 151));
+    }
+    50% {
+        filter: drop-shadow(0 0 12px rgb(141, 33, 151));
+    }
+    75% {
+        filter: drop-shadow(0 0 8px rgb(141, 33, 151));
+    }
+    100% {
+        filter: drop-shadow(0 0 5px rgb(141, 33, 151));
+    }
+}

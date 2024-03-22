@@ -1,0 +1,18 @@
+.mini-card-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    filter: drop-shadow(0 0 10px rgba(75, 24, 83, 0.726));
+    transition: .2s ease-out;
+}
+
+.mini-card-social:hover {
+    transition: .2s ease-in;
+    filter: drop-shadow(0 0 10px rgb(207, 80, 230));
+}
+
+.mini-card-social img {
+    width: 30px;
+
+}

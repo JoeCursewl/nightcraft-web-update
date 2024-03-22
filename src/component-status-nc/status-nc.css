@@ -1,0 +1,63 @@
+.status-nc-mn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0px;
+    width: 100%;
+}
+
+.st-nc-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 8px;
+    gap: 0px 20px;
+}
+
+.ev-status-nc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(77, 19, 124);
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.img-status img {
+    width: 40px;
+}
+
+.weedo img {
+    width: 25px;
+}
+
+.status-dv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 20px;
+}
+
+.status-dv p {
+    color: rgb(209, 130, 243);
+}
+
+.ip-info-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 20px;
+}
+
+.ip-info-status img {
+    width: 20px;
+}
+@media (max-width: 864px) {
+    .st-nc-all {
+        flex-direction: column;
+        gap: 25px 0px;
+    }
+}

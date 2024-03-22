@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    font-family: 'Poppins', sans-serif;
+    --color-nightcraft-titles: rgb(209, 130, 249);
+    --color-nightcraft-border-m: rgb(95, 24, 24) rgb(104, 23, 23) rgb(71, 19, 54) rgb(65, 11, 44); 
+}
+

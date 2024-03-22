@@ -1,0 +1,166 @@
+.main-info-nc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.smain-info-nc {
+    width: 100%;
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px 0px;
+    background-image: url("/header-background.webp");
+}
+
+.nc-nf-ft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 20px 0px;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.info-mdl-nc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 3rem 0rem;
+}
+
+.nc-lg-info img {
+    width: 220px;
+}
+
+.nc-lg-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nc-stf-low {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: .1s ease-out;
+    width: 100%;
+    gap: 10px;
+}
+
+.nc-stf-low img {
+    width: 25px;
+}
+
+.nc-stf-low:hover {
+    transition: .1s ease-in;
+    cursor: pointer;
+}
+
+.ip-nc {
+    font-size: 1.5rem;
+    color: rgb(209, 130, 243);
+}
+
+.nc-nf-we {
+    width: 95%;
+    padding: 1rem 0rem;
+    border-radius: 12px;
+}
+
+.nc-nf-we h2 {
+    font-size: 1.5rem;
+    color: rgb(209, 130, 243);
+    margin: 10px 0px;
+}
+
+.nc-nf-we p {
+    padding: 1rem 0rem;
+}
+
+/* SVG STYLES */
+
+.sm-ft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0px 10px;
+}
+
+.sm-ft svg {
+    width: 20px;
+}
+
+.sm-ft img {
+    width: 20px;
+}
+
+.sc {
+    color: rgb(28, 207, 207);
+}
+
+/* SVG STYLES */
+
+/* CARD MODALIDADES DE NC */
+
+.card-md-nc {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid rgba(107, 58, 153, 0.685);
+    background-image: linear-gradient(to right, rgba(60, 12, 66, 0.288), rgba(27, 10, 59, 0.288), rgba(12, 25, 59, 0.329), rgba(31, 24, 68, 0.26));
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: flex-start;
+}
+
+.card-md-nc p {
+    padding: 10px 0px;
+}
+
+.card-md-nc h2 {
+    font-size: 1.2rem;
+    color: rgb(209, 130, 243);
+    margin: 10px 0px;
+}
+
+.card-md-nc h3 {
+    font-size: 0.8rem;
+    color: rgb(24, 77, 116);
+}
+
+/* CARD MODALIDADES DE NC */
+
+/* CARD SOCIAL DE NC */ 
+
+.all-cards-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 48px;
+}
+
+/* CARD SOCIAL DE NC*/
+
+@media (max-width: 864px) {
+    .info-mdl-nc {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .card-md-nc {
+        width: 100%;
+    }
+}
