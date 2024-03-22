@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 async function getOnlineMembers() {
     const guildId = '1006965240333881406';
-    const ASTRO_KEY_NC = "MTA0MjE3NjgyNDc0ODI5MDA2OA.Gfp5-r.cGPnrxGg1TDYgWFvGJvhLYfmX5jWKrDd2Kg_K4"
+    const ASTRO_KEY_NC = "THIS TOKEN HAS BEEN REMOVED DUE TO SECURITY ISSUES"
 
     try {
         const info_nc = await fetch(`https://discord.com/api/v10/guilds/${guildId}/members?limit=1000`, {
