@@ -1,8 +1,29 @@
-# React + Vite
+Página web para servidor de Minecraft
+Este proyecto es una página web creada con Vite y React para un servidor de Minecraft. Vite ofrece un entorno de desarrollo increíblemente rápido y una experiencia de construcción optimizada, lo que resulta en una web con un rendimiento excepcional.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Características:
 
-Currently, two official plugins are available:
+Diseño responsivo: Adaptado a diferentes dispositivos (escritorio, móvil, tablet).
+Información del servidor: Muestra detalles clave como la IP, versión de Minecraft, mods instalados (si los hay), y reglas del servidor.
+Galería de imágenes: Presenta capturas de pantalla del servidor para mostrar su mundo, construcciones y eventos.
+Foro o sección de noticias: Integra un sistema para que los jugadores se comuniquen, compartan experiencias y se mantengan actualizados con las novedades del servidor.
+Página de contacto: Permite a los usuarios contactar con los administradores del servidor.
+Rendimiento optimizado: Gracias a Vite, la página web carga rápidamente y ofrece una experiencia de usuario fluida.
+Tecnologías utilizadas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite
+React
+JavaScript
+HTML
+CSS
+Próximas mejoras:
+
+Integración con la API del servidor para mostrar información en tiempo real (jugadores online, eventos en curso).
+Sistema de cuentas para que los jugadores puedan registrarse y acceder a funciones exclusivas.
+Tienda online para la compra de rangos o artículos virtuales dentro del servidor.
+Autor:
+
+Tu nombre
+Licencia:
+
+MIT License
