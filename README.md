@@ -10,13 +10,14 @@ Foro o sección de noticias: Integra un sistema para que los jugadores se comuni
 Página de contacto: Permite a los usuarios contactar con los administradores del servidor.
 Rendimiento optimizado: Gracias a Vite, la página web carga rápidamente y ofrece una experiencia de usuario fluida.
 Tecnologías utilizadas:
-
+``
 Vite
 React
 JavaScript
 HTML
 CSS
 Próximas mejoras:
+``
 
 Integración con la API del servidor para mostrar información en tiempo real (jugadores online, eventos en curso).
 Sistema de cuentas para que los jugadores puedan registrarse y acceder a funciones exclusivas.
