@@ -1,7 +1,7 @@
-Página web para servidor de Minecraft
-Este proyecto es una página web creada con Vite y React para un servidor de Minecraft. Vite ofrece un entorno de desarrollo increíblemente rápido y una experiencia de construcción optimizada, lo que resulta en una web con un rendimiento excepcional.
+# Página web para NightCraft Network
+## Este proyecto es una página web creada con Vite y React para un servidor de Minecraft. Vite ofrece un entorno de desarrollo increíblemente rápido y una experiencia de construcción optimizada, lo que resulta en una web con un rendimiento excepcional.
 
-Características:
+Características
 
 Diseño responsivo: Adaptado a diferentes dispositivos (escritorio, móvil, tablet).
 Información del servidor: Muestra detalles clave como la IP, versión de Minecraft, mods instalados (si los hay), y reglas del servidor.
@@ -23,7 +23,8 @@ Sistema de cuentas para que los jugadores puedan registrarse y acceder a funcion
 Tienda online para la compra de rangos o artículos virtuales dentro del servidor.
 Autor:
 
-Tu nombre
-Licencia:
+Anthony Cursewl
+(Portfolio)[https://anthony.breadriuss.com]
 
+Licencia:
 MIT License
